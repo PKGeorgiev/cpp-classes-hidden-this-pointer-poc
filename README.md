@@ -1,5 +1,3 @@
-# cpp-classes-hidden-this-pointer-poc
-
 # Description
 This project aims to show that instances of a given class share the same code for their methods.
 When a member function is called, a hidden pointer named "this" is passed as the first argument so the program knows which instance of that class is working with.
