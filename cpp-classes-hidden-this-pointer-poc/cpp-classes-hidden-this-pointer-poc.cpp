@@ -36,7 +36,7 @@ int main()
     // Should display "Unnamed person"
     showNames(p1, p2);
 
-    // Call setName method via the setNameFunctionPtr pointer
+    // Call setName method as if it was a regular function
     // The first parameter must the the address of a conrete instance
     // It will become the 'this' pointer
     setNameFunctionPtr(&p1, nullptr, "Person 1");
